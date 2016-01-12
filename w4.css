@@ -1,0 +1,79 @@
+/* browser reset */
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, a {
+  	padding: 0;
+  	border: 0;
+  	margin: 0;
+  	font-size: 100%;
+  	font: inherit;
+  		}
+
+/* font reset */
+
+ body h1, h2, h3, h4, h5, h6, p, ol, ul, li, a {
+ 		font-family: Helvetica, Arial, sans-serif;
+ 	}
+
+ body {
+ 	background-color: #FFFFFF;
+ 	width: 1024px;
+ 	height: auto;
+ 	margin: 0px auto 0px auto;
+ }
+
+ div.mast {
+ 	background-color: #FFFFFF;
+ 	width: 920px;
+ 	height: 140px;
+ }
+ div.nav {
+ 	background-color: #2E3540;
+ 	width: 920px;
+ 	height: 60px;
+
+ }
+.nav li	{
+	display: inline;
+	vertical-align: center;
+	color: #ffffff;
+	margin-top: 10px;
+	padding-right: 30px;
+	font-size: 18px;
+}
+.nav ul {
+	text-align: right;
+	padding-top: 20px;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+a:hover {
+	color: #cccccc;
+}
+h1 {
+	font-size: 36px;
+}
+div.main {
+	width: 920px;
+	height: 900px;
+}
+.main h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding-left: 40px;
+	color: #5D5D5D;
+}
+
+.main p {
+	padding-left: 40px;
+	padding-right: 40px;
+	color: #5D5D5D;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+h1.mast {
+	font-size: 36px;
+	color: #5D5D5D;
+}	
