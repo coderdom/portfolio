@@ -96,3 +96,72 @@ div.foot {
 	background-color: #2E3540;
 	margin-top: 100px;
 }
+h3.foot {
+	margin: 20px 0px 0px 40px;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 600;
+}
+p.foot {
+	color: #FFFFFF;
+	margin: 0px;
+}
+p.resumefoot {
+	margin-left: 40px;
+	color: #FFFFFF;
+	line-height: 22px;
+}
+h1.resume {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding-left: 40px;
+	color: #2E3540;
+	font-weight: 600;
+}
+h2.resume {
+	margin-top: 25px;
+	margin-bottom: 15px;
+	padding-left: 40px;
+	color: #2E3540;
+	font-size: 22px;
+	font-weight: 600;
+}
+p.resume {
+	padding-left: 40px;
+	padding-right: 40px;
+	color: #5D5D5D;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+ul.resume {
+	padding-left: 40px;
+	color: #5D5D5D;
+}
+li.resume {
+	margin-left: 15px;
+	font-size: 16px;
+	color: #5D5D5D;
+	line-height: 25px;
+	font-weight: 400;
+}
+h3.resume {
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 40px;
+	padding: 0px 0px 10px 40px;
+	color: #2E3540;
+	border-bottom: 2px solid #5B6470;
+}
+h4.resume {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 40px 0px 0px 40px;
+}
+h5.resume {
+	font-size: 18px;
+	font-weight: 600;
+	margin-left: 40px;
+	color: #252F5C;
+}
