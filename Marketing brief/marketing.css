@@ -1,0 +1,286 @@
+/* browser reset */
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, a {
+  	padding: 0;
+  	border: 0;
+  	margin: 0;
+  		}
+
+body {
+	width: 960px;
+	margin: 0 auto 0 auto;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 20px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 20px;
+	padding-top: 5px;
+	color: #777;
+}
+
+h3 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 16px;
+	color: #777;
+}
+
+div.mast {
+	display: inline;
+	float: left;
+}
+
+
+label.business {
+	padding-right: 5px;
+	color: #555;
+	font-size: 13px;
+	display: block;
+	float: left;
+}
+
+
+h1.mast {
+	color: rgb(35, 97, 146);
+	width: auto;
+	display: inline;
+	float: left;
+}
+
+h2.mast {
+	font-weight: 100;
+	color: rgb(98, 181, 229);
+	width: auto;
+	display: inline;
+	float: left;
+	padding: 10px 0px 0px 20px;
+}
+.clear	{
+	clear: both;
+}
+
+label, input {
+	display: block;
+}
+
+label {
+	margin-top: 10px;
+}
+
+
+div.business {
+	width: 300px;
+	border: 1px solid #555;
+	padding: 5px;
+	margin-right: 5px;
+	display: inline;
+	float: left;
+}
+
+input {
+	width: 640px;
+	height: 18px;
+	border:	1px solid #777;
+	background-color: rgb(230, 230, 255);
+}
+
+input[type=submit] {
+	width: 120px;
+	font-size: 30px;
+}
+
+input[type=text] {
+	width: 280px;
+	border: 1px solid #777;
+	font-size: 16px;
+	padding: 5px;
+}
+
+textarea {
+	width: 640px;
+	height: 18px;
+	padding: 0px;
+	border: 2px solid #7facaa;
+	font-size: 16px;
+}
+
+input[type="checkbox"], label[for=business] {
+	width: 16px;
+	margin-top: 11px;
+	display: inline;
+}
+
+input[type="radio"] {
+	width: 16px;
+	padding-top: 20px;
+	display: inline;
+}
+
+label.project {
+	color: #555;
+	font-size: 14px;
+}
+
+label.dates {
+	color: #555;
+	font-size: 14px;
+}
+
+.rule p {
+	text-align: center;
+	margin-top: 20px;
+	width: 950px;
+	line-height: 6px;
+	font-size: 6px;
+	border-top: 1px solid #000;
+}
+div.dates {
+	width: 640px;
+	display: inline;
+	float: left;
+}
+div.datechoice {
+	color: #555;
+	padding: 20px 10px 0px 20px;
+	width: 200px;
+	display: inline;
+	float: left;
+}
+label.datechoice {
+	padding-left: 10px;
+	display: inline;
+}
+
+div.language {
+	display: inline;
+}
+
+.language p {
+	color: #555;
+	font-weight: 200;
+	padding-top: 10px;
+}
+
+label.language {
+	display: inline;
+	color: #555;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.language input[type="text"] {
+	display: inline;
+	height: 16px;
+}
+
+div.language {
+	display: inline;
+}
+
+.audience p {
+	color: #555;
+	font-weight: 200;
+}
+
+label.audience {
+	display: inline;
+	color: #555;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.audience input[type="text"] {
+	display: inline;
+	height: 16px;
+}
+
+div.task {
+	display: inline;
+}
+
+.task p {
+	color: #555;
+	font-weight: 200;
+}
+
+label.task {
+	display: inline;
+	color: #555;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.task input[type="text"] {
+	display: inline;
+	height: 16px;
+}
+
+label.info {
+	display: inline;
+	color: #555;
+	font-size: 13px;
+}
+.info input[type="text"] {
+	display: block;
+	width: 900px;
+	height: 16px;
+	margin-top: 5px;
+}
+.info p {
+	color: #555;
+	font-weight: 200;
+	padding-top: 20px;
+}
+
+div.brand {
+	display: inline;
+}
+
+.brand p {
+	color: #555;
+	font-weight: 200;
+	padding-top: 20px;
+}
+
+label.brand {
+	display: inline;
+	color: #555;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.brand input[type="text"] {
+	display: inline;
+	height: 16px;
+}
+
+div.deliver {
+	display: inline;
+}
+
+.deliver p {
+	color: #555;
+	font-weight: 200;
+	margin-top: 10px;
+}
+
+label.deliver {
+	display: inline;
+	color: #555;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.deliver input[type="text"] {
+	display: inline;
+	height: 16px;
+}
+
+p.deliver {
+	font-size: 12px;
+}
