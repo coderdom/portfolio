@@ -174,3 +174,37 @@ h1.blog {
 	padding-left: 40px;
 	color: #2E3540;
 	font-weight: 600;
+}
+img.floatleft {
+	float: left;
+	border-left: 2px solid #8C94A1;
+	border-bottom: 2px solid #8C94A1;
+	margin-right: 40px;
+}
+div.clearfloat {
+	width: 1024px;
+	height: 5px;
+	clear: both;
+}
+div.container {
+	width: 1024px;
+	height: 800px;
+	background-color: red;
+}
+div.portfolio {
+	width: 1024px;
+}
+.portfolio h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding-left: 40px;
+	color: #5D5D5D;
+}
+
+.portfolio p {
+	padding-left: 40px;
+	padding-right: 40px;
+	color: #5D5D5D;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
