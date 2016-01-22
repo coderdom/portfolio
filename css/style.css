@@ -53,8 +53,8 @@ a.nav {
 }
 
 a:hover {
- 	color: #FF6812;
- 	border-top: 4px solid #FF6812;
+ 	color: #FF9900;
+ 	border-top: 4px solid #FF9900;
  	padding-top: 5px;
 }
 
@@ -151,6 +151,12 @@ div.clearfloat {
 	clear: both;
 }
 
-.portfolio img {
-	margin: 0px auto 10px auto;
+
+.foot a:hover {
+	border: none;
+}
+.imagegrid div {
+	margin: 0px;
+	padding: 0px;
+	border: none;
 }
