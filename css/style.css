@@ -15,8 +15,14 @@ body h1, h2, h3, h4, h5, h6, p, ol, ul, li, a {
 }
 
 body {
+	width: 100%;
  	margin: 0px auto 0px auto;
 }
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
 p {
  	font-size: 16px;
  	color: #525252;
@@ -127,18 +133,18 @@ ul.resume {
 	font-size: 16px;
 }
 h3.resume {
-	color: #525252;
+	color: #A80D16;
 	font-size: 1.1em;
 	font-weight: 600;
 	margin-top: 10px;	
 }
 h4.resume {
-	color: #525252;
+	color: #A80D16;
 	font-size: 1.1em;
 	font-weight: 600;	
 }
 h5.resume {
-	color: #525252;
+	color: #A80D16;
 	font-size: 1em;
 	font-weight: 600;
 }
@@ -159,4 +165,8 @@ div.clearfloat {
 	margin: 0px;
 	padding: 0px;
 	border: none;
+}
+.resumecontainer {
+	background-color: #DBD9D5;
+	padding: 20px 10px 10px 20px;
 }
